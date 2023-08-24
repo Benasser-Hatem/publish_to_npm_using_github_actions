@@ -1,8 +1,11 @@
 {
-    "name": "@devopshint/npm_project",
+    "name": "@Benasser-Hatem/npm_project",
     "version": "0.0.1",
     "description": "📦 npm package tutorial",
     "main": "index.js",
+    "publishConfig": {
+  "registry": "https://npm.pkg.github.com@Benasser-Hatem"
+   },
     "scripts": {
         "start": "node index.js"
     },
